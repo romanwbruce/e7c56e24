@@ -1,0 +1,51 @@
+@media only screen and (max-width: 799px) {
+
+    .DisableMobile{
+        display: none;
+    }
+
+    .ColMobile{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+}
+@media only screen and (min-width: 800px) {
+    .Hero{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .Login{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .Hero .HeroHeader{
+        font-size: 52px;
+        max-width: 600px;
+    }
+
+    .Hero img{
+        margin-left: auto;
+    }
+
+    body{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .Features{
+        margin:  0;
+        text-align: center;
+    }
+
+    .DesktopSupport{
+        display: flex;
+        justify-content: center;
+    }   
+
+    .DesktopSupport .Feature{
+        margin: 1.5rem;
+    }
+}

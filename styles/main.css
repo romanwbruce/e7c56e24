@@ -1,0 +1,505 @@
+@font-face {
+  font-family: mainFont;
+  src: url(test.ttf);
+}
+
+@font-face {
+  font-family: terminal;
+  src: url(Lexend-Medium.ttf);
+}
+
+:root{
+  --oxford: #040926;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: mainFont;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Center{
+  text-align: center;
+}
+
+button{
+  font-weight: bold;
+}
+
+.TerminalGray{
+  font-family: terminal;
+  letter-spacing: 1px;
+  color: gray;
+  font-size: 12px;
+}
+
+.HeroButton{
+  padding: .8rem 1.5rem;
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  border: 1px solid black;
+  margin: .5rem;
+  margin-left: 0;
+  transition: 200ms;
+}
+
+.HeroButton:hover{
+  color: white;
+  background: black;
+  cursor: pointer;
+}
+
+.Features{
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.Feature {
+  margin-top: 0rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
+}
+
+.Features .Feature .text{
+  font-size: 15px;
+}
+
+.Features .Feature img{
+  width: 74px;
+  margin: 0;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.NoBorder{
+  border: none;
+}
+
+
+.Card{
+  border: 1px solid rgb(243, 243, 243);
+  padding: 1rem;
+  display: flex;
+  background: white;
+  flex-direction: column;
+  margin: .5rem;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.Features h2{
+  font-size: 18px;
+}
+
+.Features .Feature p{
+    font-size: 20px;
+}
+
+.HeroButton :hover{
+  cursor: pointer;
+}
+
+.CheesyLine{
+  text-align: center;
+}
+
+.Login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem;
+}
+
+.Login img{
+  max-width: 200px;
+  margin: 1rem;
+}
+
+.LoginColumn{
+  display: flex;
+  flex-direction: column;
+}
+
+.Login input{
+  margin-top: 1.5rem;
+}
+
+input, select{
+  padding: .6rem;
+  outline: none;
+  border: none;
+  font-family: terminal;
+  background: rgb(245, 245, 245);
+}
+
+button{
+  background: transparent;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 200ms;
+}
+button:hover{
+  opacity: .7;
+}
+
+.Hero{
+  margin-top: 1rem;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Hero img{
+  padding: 2rem;
+  margin-top: 1rem;
+  max-width: 400px;
+}
+
+.Hero .HeroHeader{
+  margin-top: 0;
+}
+
+.HeroText{
+  font-size: 70px;
+  margin-top: 0;
+}
+
+.Login img{
+  width: 200px;
+  
+}
+
+.Oxford{
+  margin-top: 2rem;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  background: rgb(17, 17, 17);
+  color: white;
+}
+
+.GithubBG{
+  background-image: url('/images/github (1).png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.Platform{
+  display: grid;
+  place-content: center;
+}
+
+.Oxford p{
+  font-family: 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+}
+
+.Oxford a{
+  padding: .5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: white;
+  border: 1px solid white;
+  margin-bottom: 1rem;
+}
+.Hero p{
+
+}
+
+.text{
+  font-family: 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(75, 75, 75);
+}
+
+.Header{
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.FooterNav{
+  border-top: 2px solid black;
+  display: flex;
+  background: rgb(17, 17, 17);
+  color: white;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+
+.FooterNav .NavLink{
+  font-family: terminal;
+  font-size: 14px;
+  margin-left: 1rem;
+  transition: .5s;
+}
+
+.FooterNav .NavLink:hover{
+  color: gray;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.FooterNav .NavButton{
+  font-family: terminal;
+  font-size: 14px;
+  margin-right: 1rem;
+  transition: .5s;
+}
+
+.FooterNav .NavButton:hover{
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: gray;
+}
+#progress {
+  background: rgb(242, 242, 242);
+  height: 22px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.FlexCenter{
+  display: flex;
+  align-items: center;
+}
+
+.Precentage{
+  margin-left: auto;
+  font-size: 12px;
+  border-radius: 5px;
+  color: rgb(46, 176, 61);
+}
+#progress:after {
+  content: '';
+  display: block;
+  border-radius: 5px;
+  background: rgb(0, 0, 0);
+  width: 50%;
+  height: 100%;
+}
+
+#progress a{
+  position: absolute;
+  margin-left: auto;
+  font-size: 12px;
+  padding: .3rem;
+  color: white;
+}
+
+.BG{
+  background: rgb(247, 247, 247);
+  padding: .5rem;
+  border-radius: 10px;
+  transition: 200ms;
+  cursor: pointer;
+}
+.BG:hover{
+  color: black;
+}
+
+.BGSquare{
+  padding: .5rem;
+  margin: 0;
+  color: gray;
+  transition: 200ms;
+}
+
+.BGSquare:hover{
+  color: black;
+
+}
+.Header .Logo{
+  font-family: terminal;
+  font-weight: bold;
+  font-size: 20px;
+  background: black;
+  padding: .5rem;
+  color: white;
+}
+
+.Header .NavLink{
+  font-family: terminal;
+  font-size: 14px;
+  margin-left: 1rem;
+  letter-spacing: 1px;
+  transition: .5s;
+}
+
+.Header .NavLink:hover{
+  color: gray;
+  cursor: pointer;
+  letter-spacing: .6px;
+}
+
+.PushLeft{
+  margin-left: auto;
+}
+
+.Header .NavButton{
+  font-family: terminal;
+  font-size: 14px;
+  margin-right: 1rem;
+  transition: .5s;
+}
+
+.Header .NavButton:hover{
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: gray;
+}
+
+.w-200px{
+  width: 30%;
+}
+.w-100p{
+  width: 100%;
+}
+table {
+  font-family: terminal;
+  border-collapse: collapse;
+  background: white;
+}
+
+td, th {
+  border: 2px solid rgb(243, 243, 243);
+  text-align: left;
+  padding: 6px;
+  font-size: 14px;
+}
+
+td{
+  font-size: 13px;
+  padding: 1rem 1.5rem;
+}
+
+th{
+  padding: 1rem;
+  font-family: mainFont;
+}
+.particles{
+  position: fixed;
+  right: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+}
+
+
+.AppPage{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.AppPage .FirstCol{
+  margin-right: 2rem;
+}
+
+.Console{
+  width: 100%;
+}
+
+.Console ul{
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+  border-radius: 5px;
+  background: rgb(19, 19, 19);
+  color:rgb(243, 243, 243);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.Console li {
+  font-family: terminal;
+  font-size: 12px;
+}
+
+
+.ContainerPlans{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
+  margin-top: 0;
+}
+
+.ContainerPlans table{
+  width: 100%;
+}
+
+
+.InfoCard{
+  width: 128px;
+  height: 128px;
+  border-radius: 15px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin-right: 1rem;
+}
+
+.InfoCard h1{
+    display: grid;
+    place-items: center;
+    font-size: 34px;
+}
+
+.FValue{
+  text-align: center;
+}
+
+.Col{
+  margin-left: 2rem;
+}
+
+.Info{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.SolutionsPane{
+  position: absolute;
+  padding: 1rem;
+  border: 2px solid black;
+  z-index: 10;
+  background: white;
+  top: auto;
+}
+
+.Sol{
+  display: flex;
+  align-items: flex-start;
+} 
+
+.Sol a{
+  margin-left: 1rem;
+}
+
+.Sol img{
+  width: 40px;
+}

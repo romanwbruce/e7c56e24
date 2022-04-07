@@ -1,0 +1,93 @@
+
+
+.AccountNav{
+    display: flex;
+}
+
+.AccountNav a{
+    margin-right: 1rem;
+}
+
+.AccountNav .NavOption{
+    font-family: terminal;
+    font-size: 14px;
+    margin-right: 2rem;
+    transition: 300ms;
+}
+
+.AccountNav .NavOption:hover{
+    color: gray;
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
+
+  .Landing{
+      display: flex;
+      align-items: flex-start;
+  }
+.AccountPage{
+
+}
+.AccountPage h1{
+    text-align: center;
+}
+
+.AccountOptions{
+    display: grid;
+    place-content: center;
+}
+
+.AccountOption{
+    border: 2px solid rgb(243, 243, 243);
+    padding: 2rem;
+    transition: 300ms;
+    display: grid;
+    place-items: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: .5rem;
+}
+
+.AccountOption:hover{
+
+}
+
+.AccountOption img{
+    max-width: 200px;
+}
+
+.OptionTag{
+    text-align: center;
+    font-family: terminal;
+    font-size: 20px;
+}
+
+.Apps{
+    display: grid;
+    place-content: center;
+}
+
+.AppCard h1{
+    margin: 0;
+}
+
+.ButtonSection{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.WBG{
+    width: fit-content;
+    padding: .1rem;
+}
+.ButtonSection a{
+    margin-right: 1rem;
+}
+.AppCard{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 2px solid rgb(243, 243, 243);
+    width: max-content;
+    margin: 1rem;
+}
